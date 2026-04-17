@@ -11,11 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="AI Engineering Student Portfolio - Projects in Machine Learning, Python, and Data Science">
+    <meta name="keywords" content="AI, Machine Learning, Python, Portfolio, Developer">
+    <meta name="author" content="Albara">
 </head>
 <body>
 
     <nav>
         <h2>Albara</h2>
+        
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -23,17 +27,14 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-
-        <div class="nav-actions">
-            <button id="theme-toggle">🌙</button>
-            <a href="cv.pdf" download class="cv-btn">CV</a>
-        </div>
+        <button id="theme-toggle">🌙</button>
     </nav>
 
     <header class="hero">
-        <img src="profile.jpg" class="profile-img">
+        <img src="profile.jpg" alt="Profile" class="profile-img">
 
         <h1>Hello, I'm Albara</h1>
+
         <p id="typing-text"></p>
 
         <a href="#projects">
@@ -41,12 +42,15 @@
         </a>
     </header>
 
-    <section id="about">
+    <section id="about" class="about">
         <h2>About Me</h2>
-        <p>AI student passionate about Machine Learning, Python and Data Analysis.</p>
+        <p>
+            Passionate AI student learning Machine Learning,
+            Deep Learning, Python Development and Data Analysis.
+        </p>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="skills">
         <h2>Skills</h2>
 
         <div class="skills-grid">
@@ -59,54 +63,88 @@
         </div>
     </section>
 
-    <section id="journey">
+    <section id="journey" class="journey">
         <h2>My Journey</h2>
 
         <div class="timeline">
             <div class="timeline-item">
                 <h3>2024</h3>
-                <p>Started Programming</p>
+                <p>Started learning Programming & Python</p>
             </div>
 
             <div class="timeline-item">
                 <h3>2025</h3>
-                <p>Learned Machine Learning</p>
+                <p>Built ML Algorithms From Scratch</p>
             </div>
 
             <div class="timeline-item">
                 <h3>2026</h3>
-                <p>Building AI Projects</p>
+                <p>Developing AI Projects & Portfolio</p>
             </div>
         </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="projects">
         <h2>Projects</h2>
 
         <div class="project-grid">
 
             <div class="project-card">
-                <img src="project1.jpg">
+                <img src="project1.jpg" alt="Project 1">
+
                 <div class="project-info">
-                    <h3>Linear Regression</h3>
-                    <p>Built ML model from scratch</p>
-                    <span>Python • NumPy</span>
+                    <h3>Linear Regression From Scratch</h3>
+
+                    <p>
+                        Built Linear Regression algorithm manually
+                        using Python without ML libraries.
+                    </p>
+
+                    <span>Python • NumPy • Math</span>
+
                     <div class="project-links">
                         <a href="#">GitHub</a>
-                        <a href="#">Demo</a>
+                        <a href="#">Live Demo</a>
                     </div>
                 </div>
             </div>
 
             <div class="project-card">
-                <img src="project2.jpg">
+                <img src="project2.jpg" alt="Project 2">
+
                 <div class="project-info">
-                    <h3>Portfolio Website</h3>
-                    <p>Personal website</p>
-                    <span>HTML • CSS • JS</span>
+                    <h3>AI Portfolio Website</h3>
+
+                    <p>
+                        Personal portfolio website designed using
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                    <span>HTML • CSS • JavaScript</span>
+
                     <div class="project-links">
                         <a href="#">GitHub</a>
-                        <a href="#">Live</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project3.jpg" alt="Project 3">
+
+                <div class="project-info">
+                    <h3>SPSS Data Analysis</h3>
+
+                    <p>
+                        Statistical analysis project with charts,
+                        descriptive statistics and insights.
+                    </p>
+
+                    <span>SPSS • Statistics • Excel</span>
+
+                    <div class="project-links">
+                        <a href="#">GitHub</a>
+                        <a href="#">Case Study</a>
                     </div>
                 </div>
             </div>
@@ -114,13 +152,13 @@
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
         <p>Email: your@email.com</p>
     </section>
 
     <footer>
-        <p>© 2026 Albara</p>
+        <p>© 2026 Albara | AI Engineer Portfolio</p>
     </footer>
 
     <script src="script.js"></script>
